@@ -1277,7 +1277,7 @@ if [ "x${INSTALL_P4RUNTIME_SHELL_SOURCE_VERSION}" != "x" ]; then
 fi
 git log -n 1
 PATCH_DIR="${THIS_SCRIPT_DIR_ABSOLUTE}/patches"
-patch -p1 < "${PATCH_DIR}/p4runtime-shell-2023-changes.patch"
+#patch -p1 < "${PATCH_DIR}/p4runtime-shell-2023-changes.patch"
 pip3 install .
 
 pip3 list
